@@ -1,0 +1,250 @@
+.Flex4>.p-Home:not(.Flex5):hover, .Div71 > .p-Home:hover{
+color:#666
+}
+
+.Image3, .Button2, .Image6, .Button6, .Image21, .Flex43 > div > :last-child > [class*="Image"]{
+transition: transform .3s ease-in-out;
+}
+
+.Flex5:hover >  .Image3, .Flex10:hover > .Image6{
+transform:translate3d(10px,0,0);
+}
+
+.Div14{
+letter-spacing: -2px
+}
+.TextBox8, .Button4, .TextBox14, .TextBox32, .Button5{
+background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+}
+
+.Div18:hover > .Button2, .Div52:hover > .Button6{
+transform:translate3d(7px,7px,0);
+}
+
+.TextBox14, .TextBox32{
+letter-spacing: 4px;
+text-transform: uppercase;
+width: fit-content;
+}
+
+.Div71 > div > div > [class*="TextBox"]:first-child, .TextBox71{
+letter-spacing: 4px;
+text-transform: uppercase;
+background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+width: fit-content;
+}
+
+.Div71{
+white-space: nowrap;
+transition: left 0.5s ease 0s
+}
+
+.Div71 > .p-Home:hover [class*="Flex"] [class*="Image"]{
+filter: contrast(33%);
+}
+
+.Div71 > .p-Home > div > [class*="Image"]{
+transition: transform .4s ease-in-out;
+transform: scale3d(1,1,1);
+}
+.Div71 > .p-Home:hover > div > [class*="Image"]{
+transform: scale3d(1.2,1.2,1);
+}
+
+.Div71 > div > div:not(:first-child){
+background-color:white;
+}
+.p-Home.Div72{
+transform: translateX(0);
+}
+
+body{
+font-family: IBM Plex Sans;
+}
+
+.Flex43 > div > :first-child{
+color: hsla(0, 0%, 100%, 0.7);
+font-weight: 300;
+font-size:17px;
+align-items: center;
+}
+
+.Flex43 > div > :first-child > [class*="Div"]{
+width: 3px;
+height: 3px;
+margin-top: 5px;
+margin-left: 8px;
+margin-right: 1px;
+border-radius: 50%;
+background-color: #fff;
+}
+
+.Flex43 > div > [class*="TextBox"]{
+padding-top:23px;
+padding-bottom:42px;
+font-size: 29px;
+line-height: 36px;
+font-weight: 700;
+width: 90%;
+}
+
+.Flex43 > div > :last-child{
+align-items:center;
+gap:19px;
+}
+
+.Flex43 > div > :last-child> :first-child{
+font-size:19px;
+weight: 400;
+}
+
+.Flex43 > div{
+border-bottom: 1px solid hsla(0, 0%, 100%, 0.3);
+padding-bottom:30px;
+cursor:  pointer;
+}
+
+.Flex43 > div:hover> :last-child > [class*="Image"]{
+transform: translateX(10px)
+}
+
+.Flex59{
+justify-content:center;
+}
+.p-Home.Div59{
+width:85%;
+}
+.Flex60{
+width: 100%;
+justify-content: space-between;
+padding-top: 80px;
+padding-bottom: 80px;
+}
+
+.p-Home.Div112{
+width:52%;
+}
+
+.p-Home.Div113{
+width:55%;
+}
+
+.p-Home.TextBox74{
+margin-bottom:15px;
+letter-spacing: 4px;
+text-transform: uppercase;
+background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+width: fit-content;
+background-clip:text;
+color: transparent;
+font-size: 23px;
+font-weight: 700;
+}
+
+.p-Home.TextBox75{
+font-size: 55px;
+line-height: 110%;
+font-weight: 700;
+}
+
+.p-Home.TextBox76{
+line-height: 40px;
+font-weight: 400;
+font-size: 22px;
+color: #666;
+}
+
+.p-Home.Div114{
+display:grid;
+align-items: stretch;
+grid-column-gap: 16px;
+grid-row-gap: 16px;
+grid-template-columns: 1fr 1.5fr 1fr;
+width:100%;
+margin-right: auto;
+margin-left: auto;
+padding-top: 80px;
+padding-bottom: 80px;
+-webkit-box-pack: justify;
+justify-content: space-between;
+max-height: 606.7px;
+}
+
+.p-Home.Div115{
+grid-column-start:1;
+grid-column-end:2;
+grid-row-start:1;
+grid-row-end:3;
+}
+.p-Home.Div116{
+grid-column-start:2;
+grid-column-end:3;
+grid-row-start:1;
+grid-row-end:3;
+}
+.p-Home.Div117{
+grid-column-start:3;
+grid-column-end:4;
+grid-row-start:1;
+grid-row-end:2;
+}
+
+.p-Home.Div118{
+grid-column-start:3;
+grid-column-end:4;
+grid-row-start:2;
+grid-row-end:3;
+}
+
+
+
+
+.p-Home.Flex63{
+padding-top: 80px;
+padding-bottom: 80px;
+justify-content: space-between;
+}
+
+.p-Home.Flex64{
+width:48%;
+}
+
+.p-Home.TextBox77{
+font-size: 37px;
+font-weight: 700;
+padding-bottom:80px;
+}
+
+.p-Home.Flex66{
+font-weight: 500;
+}
+
+.p-Home.Flex75{
+font-size: 25px;
+line-height: 110%;
+padding-bottom: 14px;
+justify-content: space-between;
+align-items:flex-start;
+}
+
+.p-Home.Flex68{
+color: rgba(0, 0, 0, 0.6);
+font-size: 17px;
+line-height: 130%;
+justify-content: space-between;
+}
+
+.p-Home.Div123{
+position:relative;
+padding-bottom:75px;
+}
+.p-Home.Div129{
+position: absolute;
+left: 0%;
+top: auto;
+right: 0%;
+bottom: 0%;
+overflow: hidden;
+height: 1px;
+background-color: #e5e5e5;
+}
