@@ -76,5 +76,20 @@
   },
   "icon3.svg": {
     "mime": "image/svg+xml"
+  },
+  "doubleqotes.svg": {
+    "mime": "image/svg+xml"
+  },
+  "jade.jpeg": {
+    "mime": "image/jpeg"
+  },
+  "whitearrowl.svg": {
+    "mime": "image/svg+xml"
+  },
+  "whitearrowr.svg": {
+    "mime": "image/svg+xml"
+  },
+  "jennifer.png": {
+    "mime": "image/png"
   }
 }

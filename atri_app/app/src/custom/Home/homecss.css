@@ -27,7 +27,7 @@ text-transform: uppercase;
 width: fit-content;
 }
 
-.Div71 > div > div > [class*="TextBox"]:first-child, .TextBox71{
+.Div71 > div > div > [class*="TextBox"]:first-child, .TextBox71, .TextBox115{
 letter-spacing: 4px;
 text-transform: uppercase;
 background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
@@ -101,6 +101,7 @@ weight: 400;
 .Flex43 > div{
 border-bottom: 1px solid hsla(0, 0%, 100%, 0.3);
 padding-bottom:30px;
+margin-bottom: 65px;
 cursor:  pointer;
 }
 
@@ -219,26 +220,27 @@ padding-bottom:80px;
 font-weight: 500;
 }
 
-.p-Home.Flex66 > div > :first-child{
+.p-Home.Flex66 > div > :first-child, .p-Home.Flex74 > div > :first-child > :last-child > :first-child{
 font-size: 25px;
 line-height: 110%;
 padding-bottom: 14px;
-justify-content: space-between;
 align-items:flex-start;
 }
 
-.p-Home.Flex68{
+.p-Home.Flex66 > div > :nth-child(2), .p-Home.Flex74 > div > :first-child > :last-child > :nth-child(2){
 color: rgba(0, 0, 0, 0.6);
 font-size: 17px;
 line-height: 130%;
 justify-content: space-between;
 }
 
-.p-Home.Div123{
+.p-Home.Flex66 > div, .p-Home.Flex74 > div{
 position:relative;
-padding-bottom:75px;
+padding-bottom:40px;
+margin-bottom:35px;
 }
-.p-Home.Div129{
+
+.p-Home.Flex66 > div > :last-child, .p-Home.Flex74 > div > :last-child{
 position: absolute;
 left: 0%;
 top: auto;
@@ -249,13 +251,39 @@ height: 1px;
 background-color: #e5e5e5;
 }
 
-.p-Home.Div155{
+.p-Home.Flex66 > div > :last-child > div, .p-Home.Flex74 > div > :last-child > div{
 height: 1px;
 background-color: #000000;
 transition: transform 0.5s ease 0s;
 transform: translateX(-110%);
 }
 
-.p-Home.Div123:hover > :last-child > div{
+.p-Home.Flex66 > div:hover > :last-child > div, .p-Home.Flex74 > div:hover > :last-child > div{
 transform: translateX(0%);
+}
+
+.p-Home.Flex66 > div:hover> div [class*="Image"], .p-Home.Flex74 > div:hover> :first-child > div [class*="Image"]{
+transform: translate3d(5px, -5px, 0);
+}
+
+.p-Home.Flex66 > div [class*="Image"], .p-Home.Flex74 > div > :first-child > div [class*="Image"]{
+transition: transform 0.3s ease-in-out;
+}
+
+.p-Home.Image55, .p-Home.Image59{
+object-fit: cover;
+filter: saturate(0%);
+}
+
+.p-Home.Flex114, .p-Home.Flex116{
+transition: opacity 0.3s ease;
+}
+
+.p-Home.Flex116{
+opacity:0%;
+}
+
+.p-Home.Div181, .p-Home.Div177{
+transform: translateX(-100%);
+transition: left 0.3s ease;
 }

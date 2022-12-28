@@ -454,6 +454,9 @@ const desktopModeProps = {
     "Div139": {
       "callbacks": {}
     },
+    "Div157": {
+      "callbacks": {}
+    },
     "Flex77": {
       "callbacks": {}
     },
@@ -484,9 +487,6 @@ const desktopModeProps = {
     "Flex87": {
       "callbacks": {}
     },
-    "Div149": {
-      "callbacks": {}
-    },
     "Div158": {
       "callbacks": {}
     },
@@ -506,9 +506,6 @@ const desktopModeProps = {
       "callbacks": {}
     },
     "Flex88": {
-      "callbacks": {}
-    },
-    "Div148": {
       "callbacks": {}
     },
     "Div160": {
@@ -532,10 +529,61 @@ const desktopModeProps = {
     "Flex89": {
       "callbacks": {}
     },
-    "Div150": {
+    "Div164": {
       "callbacks": {}
     },
-    "Div164": {
+    "Flex99": {
+      "callbacks": {}
+    },
+    "Flex100": {
+      "callbacks": {}
+    },
+    "Flex108": {
+      "callbacks": {}
+    },
+    "Flex113": {
+      "callbacks": {}
+    },
+    "Flex111": {
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex112": {
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex114": {
+      "callbacks": {}
+    },
+    "Div174": {
+      "callbacks": {}
+    },
+    "Flex109": {
+      "callbacks": {}
+    },
+    "Div175": {
+      "callbacks": {}
+    },
+    "Flex116": {
+      "callbacks": {}
+    },
+    "Flex115": {
+      "callbacks": {}
+    },
+    "Div180": {
+      "callbacks": {}
+    },
+    "Div182": {
       "callbacks": {}
     },
     "Image1": {
@@ -2028,8 +2076,17 @@ const desktopModeProps = {
         ]
       }
     },
-    "Div157": {
-      "callbacks": {}
+    "TextBox108": {
+      "custom": {
+        "text": "Word on the street"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
     },
     "TextBox90": {
       "custom": {
@@ -2262,6 +2319,186 @@ const desktopModeProps = {
     },
     "Div165": {
       "callbacks": {}
+    },
+    "TextBox107": {
+      "custom": {
+        "text": "Word on the street"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox115": {
+      "custom": {
+        "text": "Testimonials"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image56": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/whitearrowl.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image57": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/whitearrowr.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image55": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/jade.jpeg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Div177": {
+      "callbacks": {}
+    },
+    "TextBox109": {
+      "custom": {
+        "text": "Jade helped us build a software so intuitive that it didn't need a walkthrough. He solved complex problems with brilliant design."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image54": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/doubleqotes.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox110": {
+      "custom": {
+        "text": "John Frankin"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox111": {
+      "custom": {
+        "text": "Founder, Double Bunch"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image58": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/doubleqotes.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox114": {
+      "custom": {
+        "text": "This is unbelievable. After using Testiminial Generator my buisness skyrocketed!"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox112": {
+      "custom": {
+        "text": "Project Manager@ Microsoft"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox113": {
+      "custom": {
+        "text": "Jennifer Musk"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Div181": {
+      "callbacks": {}
+    },
+    "Image59": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/jennifer.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
     }
   }
 }};

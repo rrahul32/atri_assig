@@ -1,6 +1,7 @@
 from .atri import Atri
 from fastapi import Request, Response
 from atri_utils import *
+import time
 
 
 def init_state(at: Atri):
@@ -41,3 +42,16 @@ def handle_event(at: Atri, req: Request, res: Response):
             x=int(at.Div71.styles.left[6])
         x-=1
         at.Div71.styles.left= f"calc(-{x} * (40% + 24px))"
+
+    if at.Flex111.onClick:
+        if at.Flex114.styles.opacity=='' or at.Flex114.styles.opacity== '100%':
+            at.Div181.styles.left='50%'
+            at.Flex114.styles.opacity= '0'
+            at.Flex116.styles.opacity= '100%'
+            at.Div181.styles.left='0%'
+        
+        else:
+            at.Div177.styles.left='50%'
+            at.Flex116.styles.opacity= '0'
+            at.Flex114.styles.opacity= '100%'
+            at.Div177.styles.left='0%'
