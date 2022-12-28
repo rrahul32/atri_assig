@@ -205,21 +205,21 @@ padding-bottom: 80px;
 justify-content: space-between;
 }
 
-.p-Home.Flex64{
+.p-Home.Flex64, .p-Home.Flex73{
 width:48%;
 }
 
-.p-Home.TextBox77{
+.p-Home.TextBox77, .p-Home.TextBox93{
 font-size: 37px;
 font-weight: 700;
 padding-bottom:80px;
 }
 
-.p-Home.Flex66{
+.p-Home.Flex66, .p-Home.Flex74{
 font-weight: 500;
 }
 
-.p-Home.Flex75{
+.p-Home.Flex66 > div > :first-child{
 font-size: 25px;
 line-height: 110%;
 padding-bottom: 14px;
@@ -247,4 +247,15 @@ bottom: 0%;
 overflow: hidden;
 height: 1px;
 background-color: #e5e5e5;
+}
+
+.p-Home.Div155{
+height: 1px;
+background-color: #000000;
+transition: transform 0.5s ease 0s;
+transform: translateX(-110%);
+}
+
+.p-Home.Div123:hover > :last-child > div{
+transform: translateX(0%);
 }

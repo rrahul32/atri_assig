@@ -103,6 +103,18 @@ const desktopModeProps = {
     "Flex14": {
       "callbacks": {}
     },
+    "Div166": {
+      "callbacks": {}
+    },
+    "Div167": {
+      "callbacks": {}
+    },
+    "Div168": {
+      "callbacks": {}
+    },
+    "Div169": {
+      "callbacks": {}
+    },
     "Flex15": {
       "callbacks": {}
     },
@@ -463,13 +475,13 @@ const desktopModeProps = {
     "Flex81": {
       "callbacks": {}
     },
-    "Flex87": {
-      "callbacks": {}
-    },
     "Flex82": {
       "callbacks": {}
     },
     "Div146": {
+      "callbacks": {}
+    },
+    "Flex87": {
       "callbacks": {}
     },
     "Div149": {
@@ -487,13 +499,13 @@ const desktopModeProps = {
     "Flex83": {
       "callbacks": {}
     },
-    "Flex88": {
-      "callbacks": {}
-    },
     "Flex84": {
       "callbacks": {}
     },
     "Div147": {
+      "callbacks": {}
+    },
+    "Flex88": {
       "callbacks": {}
     },
     "Div148": {
@@ -511,16 +523,16 @@ const desktopModeProps = {
     "Flex85": {
       "callbacks": {}
     },
-    "Flex89": {
-      "callbacks": {}
-    },
     "Flex86": {
       "callbacks": {}
     },
-    "Div150": {
+    "Div151": {
       "callbacks": {}
     },
-    "Div151": {
+    "Flex89": {
+      "callbacks": {}
+    },
+    "Div150": {
       "callbacks": {}
     },
     "Div164": {
@@ -2081,9 +2093,9 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox95": {
+    "TextBox96": {
       "custom": {
-        "text": "SpaceFleet"
+        "text": "• April 2019 - Current"
       },
       "callbacks": {
         "onClick": [
@@ -2093,9 +2105,9 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox96": {
+    "TextBox95": {
       "custom": {
-        "text": "• April 2019 - Current"
+        "text": "SpaceFleet"
       },
       "callbacks": {
         "onClick": [
@@ -2146,9 +2158,9 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox98": {
+    "TextBox99": {
       "custom": {
-        "text": "MusicMash"
+        "text": "• April 2016 - May 2017"
       },
       "callbacks": {
         "onClick": [
@@ -2158,9 +2170,9 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox99": {
+    "TextBox98": {
       "custom": {
-        "text": "• April 2016 - May 2017"
+        "text": "MusicMash"
       },
       "callbacks": {
         "onClick": [
@@ -2199,9 +2211,9 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox100": {
+    "TextBox101": {
       "custom": {
-        "text": "Kingdom"
+        "text": "UI Designer"
       },
       "callbacks": {
         "onClick": [
@@ -2211,9 +2223,21 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox101": {
+    "TextBox103": {
       "custom": {
-        "text": "UI Designer"
+        "text": "• April 2016 - May 2017"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox100": {
+      "custom": {
+        "text": "Kingdom"
       },
       "callbacks": {
         "onClick": [
@@ -2227,18 +2251,6 @@ const desktopModeProps = {
       "custom": {
         "alt": "No preview available",
         "src": "/app-assets/clickarrow.svg"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox103": {
-      "custom": {
-        "text": "• April 2016 - May 2017"
       },
       "callbacks": {
         "onClick": [

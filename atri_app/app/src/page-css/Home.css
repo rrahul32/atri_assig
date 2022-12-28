@@ -113,6 +113,18 @@ padding-top: 40px;
 column-gap: 100px;
 width: 100%;
 }
+.p-Home.Div166 {
+;
+}
+.p-Home.Div167 {
+;
+}
+.p-Home.Div168 {
+;
+}
+.p-Home.Div169 {
+;
+}
 .p-Home.Flex15 {
 display: flex;
 justify-content: center;
@@ -604,17 +616,20 @@ display: flex;
 }
 .p-Home.Flex81 {
 display: flex;
-}
-.p-Home.Flex87 {
-display: flex;
 flex-direction: column;
 }
 .p-Home.Flex82 {
 display: flex;
-flex-direction: column;
+flex-direction: row;
+justify-content: space-between;
 }
 .p-Home.Div146 {
 ;
+}
+.p-Home.Flex87 {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
 }
 .p-Home.Div149 {
 ;
@@ -631,17 +646,20 @@ display: flex;
 }
 .p-Home.Flex83 {
 display: flex;
-}
-.p-Home.Flex88 {
-display: flex;
 flex-direction: column;
 }
 .p-Home.Flex84 {
 display: flex;
-flex-direction: column;
+flex-direction: row;
+justify-content: space-between;
 }
 .p-Home.Div147 {
 ;
+}
+.p-Home.Flex88 {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
 }
 .p-Home.Div148 {
 ;
@@ -658,19 +676,22 @@ display: flex;
 }
 .p-Home.Flex85 {
 display: flex;
-}
-.p-Home.Flex89 {
-display: flex;
 flex-direction: column;
 }
 .p-Home.Flex86 {
 display: flex;
-flex-direction: column;
-}
-.p-Home.Div150 {
-;
+flex-direction: row;
+justify-content: space-between;
 }
 .p-Home.Div151 {
+;
+}
+.p-Home.Flex89 {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.p-Home.Div150 {
 ;
 }
 .p-Home.Div164 {
@@ -1349,10 +1370,10 @@ width: 100%;
 .p-Home.TextBox94 {
 ;
 }
-.p-Home.TextBox95 {
+.p-Home.TextBox96 {
 ;
 }
-.p-Home.TextBox96 {
+.p-Home.TextBox95 {
 ;
 }
 .p-Home.Image42 {
@@ -1367,10 +1388,10 @@ width: 100%;
 .p-Home.TextBox97 {
 ;
 }
-.p-Home.TextBox98 {
+.p-Home.TextBox99 {
 ;
 }
-.p-Home.TextBox99 {
+.p-Home.TextBox98 {
 ;
 }
 .p-Home.Image44 {
@@ -1382,16 +1403,16 @@ width: 100%;
 .p-Home.Image45 {
 ;
 }
-.p-Home.TextBox100 {
-;
-}
 .p-Home.TextBox101 {
 ;
 }
-.p-Home.Image46 {
+.p-Home.TextBox103 {
 ;
 }
-.p-Home.TextBox103 {
+.p-Home.TextBox100 {
+;
+}
+.p-Home.Image46 {
 ;
 }
 .p-Home.Div165 {
