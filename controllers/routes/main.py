@@ -15,7 +15,7 @@ def handle_page_request(at: Atri, req: Request, res: Response, query: str):
     """
     This function is called whenever a user loads this route in the browser.
     """
-
+    pass
 def handle_event(at: Atri, req: Request, res: Response):
     """
     This function is called whenever an event is received. An event occurs when user
@@ -24,20 +24,20 @@ def handle_event(at: Atri, req: Request, res: Response):
     if at.Flex38.onClick:
         if at.Div71.styles.left == '':
             x=0
+        elif at.Div71.styles.left[6]=='4':
+            x=-1
         else:
-            x=float(at.Div71.styles.left.strip('px'))
-            if x<-1447.95:
-                x=482.65    
-        # print(x)
-        x-=482.65
-        at.Div71.styles.left= f"{x}px"
+            x=int(at.Div71.styles.left[6])
+        x+=1
+        at.Div71.styles.left= f"calc(-{x} * (40% + 24px))"
+
 
     if at.Flex39.onClick:
         if at.Div71.styles.left == '':
-            x=0
+            x=5
+        elif at.Div71.styles.left[6]=='0':
+            x=5
         else:
-            x=float(at.Div71.styles.left.strip('px'))
-        x+=482.65
-        if x>1:
-            x=-1930.6            
-        at.Div71.styles.left= f"{x}px"
+            x=int(at.Div71.styles.left[6])
+        x-=1
+        at.Div71.styles.left= f"calc(-{x} * (40% + 24px))"
