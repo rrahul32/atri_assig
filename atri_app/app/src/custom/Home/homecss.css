@@ -276,14 +276,14 @@ filter: saturate(0%);
 }
 
 .p-Home.Flex114, .p-Home.Flex116{
-transition: opacity 0.3s ease;
+transition: opacity 0.5s ease-out;
 }
 
 .p-Home.Flex116{
 opacity:0%;
 }
 
-.p-Home.Div181, .p-Home.Div177{
-transform: translateX(-100%);
-transition: left 0.3s ease;
+.p-Home.Div183,.p-Home.Div184{
+left:-50%;
+transition: left 1s ease-out;
 }

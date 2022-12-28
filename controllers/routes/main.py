@@ -44,14 +44,21 @@ def handle_event(at: Atri, req: Request, res: Response):
         at.Div71.styles.left= f"calc(-{x} * (40% + 24px))"
 
     if at.Flex111.onClick:
+        # print(dir(at.Div183.styles))
         if at.Flex114.styles.opacity=='' or at.Flex114.styles.opacity== '100%':
-            at.Div181.styles.left='50%'
             at.Flex114.styles.opacity= '0'
             at.Flex116.styles.opacity= '100%'
-            at.Div181.styles.left='0%'
-        
+            at.Div184.styles.zIndex= '2'
+            at.Div184.styles.left= '-101%'
+            at.Div183.styles.zIndex= '1'
+            at.Div183.styles.left= '-50%'
         else:
-            at.Div177.styles.left='50%'
             at.Flex116.styles.opacity= '0'
             at.Flex114.styles.opacity= '100%'
-            at.Div177.styles.left='0%'
+            at.Div183.styles.zIndex= '2'
+            at.Div183.styles.left= '-101%'
+            at.Div184.styles.zIndex= '1'
+            at.Div184.styles.left= '-50%'
+
+        
+            
