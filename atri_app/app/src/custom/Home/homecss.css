@@ -13,7 +13,7 @@ transform:translate3d(10px,0,0);
 .Div14{
 letter-spacing: -2px
 }
-.TextBox8, .Button4, .TextBox14, .TextBox32, .Button5{
+.TextBox8, .Button4, .TextBox14, .TextBox32, .Button5, .TextBox119{
 background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
 }
 
@@ -171,6 +171,10 @@ justify-content: space-between;
 max-height: 606.7px;
 }
 
+.p-Home.Div114 [class*="Image"]{
+    object-fit: cover;
+}
+
 .p-Home.Div115{
 grid-column-start:1;
 grid-column-end:2;
@@ -302,7 +306,8 @@ transition: left 1s ease-out;
 }
 
 .accordion-icon{
-    transform:rotateZ(90deg)
+    transform:rotateZ(90deg);
+    transition: transform 0.3s ease;
 }
 
 .accordion.active > .accordion-icon{
@@ -330,4 +335,62 @@ transition: left 1s ease-out;
     line-height: 150%;
     padding: 0px;
     color: #666;
+}
+
+.p-Home.TextBox119{
+    letter-spacing: 0.5px;
+    width: fit-content;
+}
+
+.p-Home.Div189{
+    width: 100%;
+    height: 5px;
+    border-radius: 2px;
+    background-image: linear-gradient(108deg, #b16cea 14%, #ff5e69 57%, #ff8a56 81%, #ffa84b);
+    transform: scale3d(0,1,1);
+    transform-style:preserve-3d ;
+    transition: transform 0.5s ease-out;
+    transform-origin: 0%;
+}
+
+.p-Home.Div188{
+    width: fit-content;
+}
+.p-Home.Div188:hover > .Div189{
+    transform: scale3d(1,1,1);
+}
+
+.p-Home.Div191{
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 100px;
+    grid-row-gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+
+.p-Home.Div191 > div > :last-child{
+    margin-bottom: -10px;
+    height: 1px;
+    background-color: #fff;
+    transform: scale3d(0,1,1);
+    transform-style:preserve-3d ;
+    transition: transform 0.3s ease-out;
+    transform-origin: 0%;
+}
+
+.p-Home.Div191 > div:hover > :last-child{
+    transform: scale3d(1,1,1);
+}
+
+.p-Home.Div191 > div{
+    width: fit-content;
+}
+
+.p-Home.Flex128 > [class*="TextBox"]{
+    transition: color 0.2s ease;
+}
+
+.p-Home.Flex128 > [class*="TextBox"]:hover{
+    color:#fff;
 }

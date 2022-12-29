@@ -91,5 +91,11 @@
   },
   "jennifer.png": {
     "mime": "image/png"
+  },
+  "White Logo.svg": {
+    "mime": "image/svg+xml"
+  },
+  "email.svg": {
+    "mime": "image/svg+xml"
   }
 }

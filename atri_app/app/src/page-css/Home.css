@@ -77,6 +77,7 @@ position: relative;
 }
 .p-Home.Div19 {
 align-self: center;
+cursor: pointer;
 }
 .p-Home.Flex10 {
 display: flex;
@@ -271,6 +272,7 @@ position: relative;
 margin-bottom: ;
 margin-right: ;
 padding-right: 7px;
+cursor: pointer;
 }
 .p-Home.Flex24 {
 display: flex;
@@ -297,6 +299,7 @@ display: inline-block;
 padding-right: 0px;
 margin-right: 24px;
 visibility: visible;
+cursor: pointer;
 }
 .p-Home.Div77 {
 padding-top: 32px;
@@ -317,6 +320,7 @@ display: inline-block;
 width: 100%;
 height: 100%;
 margin-right: 24px;
+cursor: pointer;
 }
 .p-Home.Div80 {
 padding-top: 32px;
@@ -337,6 +341,7 @@ width: 100%;
 height: 100%;
 margin-right: 24px;
 display: inline-block;
+cursor: pointer;
 }
 .p-Home.Div83 {
 padding-top: 32px;
@@ -357,6 +362,7 @@ width: 100%;
 height: 100%;
 margin-right: 24px;
 display: inline-block;
+cursor: pointer;
 }
 .p-Home.Div86 {
 padding-top: 32px;
@@ -377,6 +383,7 @@ display: inline-block;
 width: 100%;
 height: 100%;
 margin-right: 24px;
+cursor: pointer;
 }
 .p-Home.Div88 {
 padding-top: 32px;
@@ -525,16 +532,16 @@ display: flex;
 ;
 }
 .p-Home.Div115 {
-;
+cursor: pointer;
 }
 .p-Home.Div116 {
-;
+cursor: pointer;
 }
 .p-Home.Div117 {
 ;
 }
 .p-Home.Div118 {
-;
+cursor: pointer;
 }
 .p-Home.Flex62 {
 display: flex;
@@ -558,7 +565,7 @@ display: flex;
 flex-direction: column;
 }
 .p-Home.Div123 {
-;
+cursor: pointer;
 }
 .p-Home.Div129 {
 ;
@@ -574,7 +581,7 @@ display: flex;
 justify-content: space-between;
 }
 .p-Home.Div124 {
-;
+cursor: pointer;
 }
 .p-Home.Flex71 {
 display: flex;
@@ -590,7 +597,7 @@ display: flex;
 justify-content: space-between;
 }
 .p-Home.Div138 {
-;
+cursor: pointer;
 }
 .p-Home.Flex72 {
 display: flex;
@@ -622,6 +629,7 @@ flex-direction: column;
 .p-Home.Flex90 {
 display: flex;
 flex-direction: column;
+cursor: pointer;
 }
 .p-Home.Flex78 {
 display: flex;
@@ -652,6 +660,7 @@ justify-content: space-between;
 .p-Home.Flex91 {
 display: flex;
 flex-direction: column;
+cursor: pointer;
 }
 .p-Home.Flex79 {
 display: flex;
@@ -682,6 +691,7 @@ justify-content: space-between;
 .p-Home.Flex93 {
 display: flex;
 flex-direction: column;
+cursor: pointer;
 }
 .p-Home.Flex80 {
 display: flex;
@@ -865,6 +875,108 @@ width: 48%;
 .p-Home.Flex123 {
 display: flex;
 width: 48%;
+}
+.p-Home.Flex124 {
+display: flex;
+background-color: #000000;
+justify-content: center;
+color: #ffffff;
+}
+.p-Home.Flex125 {
+display: flex;
+width: 85%;
+max-width: 1215px;
+padding-top: 160px;
+padding-bottom: 20px;
+flex-direction: column;
+}
+.p-Home.Flex126 {
+display: flex;
+flex-direction: column;
+}
+.p-Home.Div188 {
+padding-top: 10px;
+overflow: hidden;
+cursor: pointer;
+}
+.p-Home.Flex127 {
+display: flex;
+justify-content: space-between;
+padding-top: 80px;
+}
+.p-Home.Div190 {
+width: 40%;
+max-width: 375px;
+}
+.p-Home.Flex129 {
+display: flex;
+padding-top: 9px;
+padding-bottom: 30px;
+align-items: center;
+cursor: pointer;
+}
+.p-Home.Div196 {
+padding-bottom: 15px;
+cursor: pointer;
+}
+.p-Home.Div191 {
+;
+}
+.p-Home.Div193 {
+cursor: pointer;
+}
+.p-Home.Div198 {
+cursor: pointer;
+}
+.p-Home.Div200 {
+cursor: pointer;
+}
+.p-Home.Div202 {
+cursor: pointer;
+}
+.p-Home.Div204 {
+cursor: pointer;
+}
+.p-Home.Div206 {
+cursor: pointer;
+}
+.p-Home.Div208 {
+cursor: pointer;
+}
+.p-Home.Div210 {
+cursor: pointer;
+}
+.p-Home.Div212 {
+cursor: pointer;
+}
+.p-Home.Flex128 {
+display: flex;
+flex-direction: row;
+padding-top: 150px;
+font-family: IBM Plex Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 140%;
+color: #8a95ad;
+column-gap: 3px;
+}
+.p-Home.Div213 {
+;
+}
+.p-Home.Div214 {
+;
+}
+.p-Home.Div215 {
+;
+}
+.p-Home.Div216 {
+;
+}
+.p-Home.Div219 {
+;
+}
+.p-Home.Div220 {
+;
 }
 .p-Home.Image1 {
 cursor: pointer;
@@ -1472,15 +1584,20 @@ height: 13px;
 }
 .p-Home.Image34 {
 width: 100%;
+height: 100%;
 }
 .p-Home.Image35 {
 width: 100%;
+height: 100%;
 }
 .p-Home.Image36 {
 width: 100%;
+cursor: pointer;
+height: 100%;
 }
 .p-Home.Image37 {
 width: 100%;
+height: 100%;
 }
 .p-Home.TextBox77 {
 ;
@@ -1710,4 +1827,151 @@ background-color: ;
 }
 .p-Home.Accordion2 {
 width: ;
+}
+.p-Home.TextBox118 {
+font-family: IBM Plex Sans;
+font-weight: 700;
+font-size: 54px;
+line-height: 110%;
+}
+.p-Home.TextBox119 {
+font-family: IBM Plex Sans;
+font-weight: 700;
+font-size: 54px;
+line-height: ;
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+}
+.p-Home.Div189 {
+padding-top: 0px;
+}
+.p-Home.TextBox121 {
+font-family: IBM Plex Sans;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #666666;
+}
+.p-Home.Image60 {
+width: 30px;
+height: 21px;
+margin-right: 6px;
+}
+.p-Home.TextBox123 {
+font-family: IBM Plex Sans;
+font-weight: 700;
+font-size: 17px;
+line-height: 36px;
+}
+.p-Home.Image62 {
+;
+}
+.p-Home.TextBox124 {
+font-family: IBM Plex Sans;
+font-weight: 400;
+font-size: 18px;
+}
+.p-Home.Div195 {
+;
+}
+.p-Home.Div197 {
+;
+}
+.p-Home.TextBox137 {
+font-family: IBM Plex Sans;
+font-weight: 400;
+font-size: 18px;
+}
+.p-Home.Div199 {
+;
+}
+.p-Home.TextBox138 {
+font-family: IBM Plex Sans;
+font-weight: 400;
+font-size: 18px;
+}
+.p-Home.Div201 {
+;
+}
+.p-Home.TextBox139 {
+font-family: IBM Plex Sans;
+font-weight: 400;
+font-size: 18px;
+}
+.p-Home.Div203 {
+;
+}
+.p-Home.TextBox140 {
+font-family: IBM Plex Sans;
+font-weight: 400;
+font-size: 18px;
+}
+.p-Home.Div205 {
+;
+}
+.p-Home.TextBox141 {
+font-family: IBM Plex Sans;
+font-weight: 400;
+font-size: 18px;
+}
+.p-Home.Div207 {
+;
+}
+.p-Home.TextBox142 {
+font-family: IBM Plex Sans;
+font-weight: 400;
+font-size: 18px;
+}
+.p-Home.Div209 {
+;
+}
+.p-Home.TextBox143 {
+font-family: IBM Plex Sans;
+font-weight: 400;
+font-size: 18px;
+}
+.p-Home.Div211 {
+;
+}
+.p-Home.TextBox144 {
+font-family: IBM Plex Sans;
+font-weight: 400;
+font-size: 18px;
+}
+.p-Home.TextBox126 {
+cursor: pointer;
+}
+.p-Home.TextBox128 {
+cursor: pointer;
+}
+.p-Home.TextBox130 {
+cursor: pointer;
+}
+.p-Home.TextBox132 {
+cursor: pointer;
+}
+.p-Home.TextBox134 {
+cursor: pointer;
+}
+.p-Home.TextBox136 {
+cursor: pointer;
+}
+.p-Home.TextBox125 {
+;
+}
+.p-Home.TextBox127 {
+;
+}
+.p-Home.TextBox129 {
+;
+}
+.p-Home.TextBox131 {
+;
+}
+.p-Home.TextBox135 {
+;
+}
+.p-Home.TextBox147 {
+;
 }

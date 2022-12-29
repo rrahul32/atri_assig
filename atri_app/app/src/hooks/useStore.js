@@ -610,6 +610,81 @@ const desktopModeProps = {
     "Flex123": {
       "callbacks": {}
     },
+    "Flex124": {
+      "callbacks": {}
+    },
+    "Flex125": {
+      "callbacks": {}
+    },
+    "Flex126": {
+      "callbacks": {}
+    },
+    "Div188": {
+      "callbacks": {}
+    },
+    "Flex127": {
+      "callbacks": {}
+    },
+    "Div190": {
+      "callbacks": {}
+    },
+    "Flex129": {
+      "callbacks": {}
+    },
+    "Div196": {
+      "callbacks": {}
+    },
+    "Div191": {
+      "callbacks": {}
+    },
+    "Div193": {
+      "callbacks": {}
+    },
+    "Div198": {
+      "callbacks": {}
+    },
+    "Div200": {
+      "callbacks": {}
+    },
+    "Div202": {
+      "callbacks": {}
+    },
+    "Div204": {
+      "callbacks": {}
+    },
+    "Div206": {
+      "callbacks": {}
+    },
+    "Div208": {
+      "callbacks": {}
+    },
+    "Div210": {
+      "callbacks": {}
+    },
+    "Div212": {
+      "callbacks": {}
+    },
+    "Flex128": {
+      "callbacks": {}
+    },
+    "Div213": {
+      "callbacks": {}
+    },
+    "Div214": {
+      "callbacks": {}
+    },
+    "Div215": {
+      "callbacks": {}
+    },
+    "Div216": {
+      "callbacks": {}
+    },
+    "Div219": {
+      "callbacks": {}
+    },
+    "Div220": {
+      "callbacks": {}
+    },
     "Image1": {
       "custom": {
         "alt": "No preview available",
@@ -2583,6 +2658,362 @@ const desktopModeProps = {
         "open": []
       },
       "callbacks": {}
+    },
+    "TextBox118": {
+      "custom": {
+        "text": "Ready to make something kickass?"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox119": {
+      "custom": {
+        "text": "Let's get on a call."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Div189": {
+      "callbacks": {}
+    },
+    "TextBox121": {
+      "custom": {
+        "text": "4353 Delaware Avenue, San Francisco, USA"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image60": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/email.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox123": {
+      "custom": {
+        "text": "hi@thefolio.com"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image62": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/White%20Logo.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox124": {
+      "custom": {
+        "text": "About"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Div195": {
+      "callbacks": {}
+    },
+    "Div197": {
+      "callbacks": {}
+    },
+    "TextBox137": {
+      "custom": {
+        "text": "Services"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Div199": {
+      "callbacks": {}
+    },
+    "TextBox138": {
+      "custom": {
+        "text": "Experience"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Div201": {
+      "callbacks": {}
+    },
+    "TextBox139": {
+      "custom": {
+        "text": "Contact"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Div203": {
+      "callbacks": {}
+    },
+    "TextBox140": {
+      "custom": {
+        "text": "Blog"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Div205": {
+      "callbacks": {}
+    },
+    "TextBox141": {
+      "custom": {
+        "text": "Projects"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Div207": {
+      "callbacks": {}
+    },
+    "TextBox142": {
+      "custom": {
+        "text": "Dribble"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Div209": {
+      "callbacks": {}
+    },
+    "TextBox143": {
+      "custom": {
+        "text": "Instagram"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Div211": {
+      "callbacks": {}
+    },
+    "TextBox144": {
+      "custom": {
+        "text": "Twitter"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox126": {
+      "custom": {
+        "text": "Conversionflow"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox128": {
+      "custom": {
+        "text": "Webflow "
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox130": {
+      "custom": {
+        "text": "Image License Info"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox132": {
+      "custom": {
+        "text": "Instructions"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox134": {
+      "custom": {
+        "text": "Changelog"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox136": {
+      "custom": {
+        "text": "Style Guide"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox125": {
+      "custom": {
+        "text": "© All rights reserved."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox127": {
+      "custom": {
+        "text": ". Powered by "
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox129": {
+      "custom": {
+        "text": "/ "
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox131": {
+      "custom": {
+        "text": " / "
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox135": {
+      "custom": {
+        "text": " / "
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox147": {
+      "custom": {
+        "text": "/"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
     }
   }
 }};
