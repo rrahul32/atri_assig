@@ -16,7 +16,7 @@ def handle_page_request(at: Atri, req: Request, res: Response, query: str):
     """
     This function is called whenever a user loads this route in the browser.
     """
-    print(dir(at.Accordion2.custom.title))
+    pass
 
 
 def handle_event(at: Atri, req: Request, res: Response):
@@ -61,6 +61,5 @@ def handle_event(at: Atri, req: Request, res: Response):
             at.Div183.styles.left= '-101%'
             at.Div184.styles.zIndex= '1'
             at.Div184.styles.left= '-50%'
-
         
             

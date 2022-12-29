@@ -632,7 +632,17 @@ const desktopModeProps = {
       "callbacks": {}
     },
     "Div196": {
-      "callbacks": {}
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "javascript: function print(e){console.log(e)} print(this);",
+              "target": "_self"
+            }
+          }
+        ]
+      }
     },
     "Div191": {
       "callbacks": {}

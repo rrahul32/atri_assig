@@ -5238,7 +5238,15 @@ export function useTextBox136Cb() {
 export function useDiv196Cb() {
 	const onClick = useCallback(callbackFactory("Div196", "Home", "/", "onClick", 
 			{
-  "handlers": [],
+  "handlers": [
+    {
+      "navigate": {
+        "type": "external",
+        "url": "javascript: function print(e){console.log(e)} print(this);",
+        "target": "_self"
+      }
+    }
+  ],
   "actions": [
     {
       "type": "do_nothing"
