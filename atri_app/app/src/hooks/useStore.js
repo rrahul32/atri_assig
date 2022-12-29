@@ -633,15 +633,7 @@ const desktopModeProps = {
     },
     "Div196": {
       "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "external",
-              "url": "javascript: function print(e){console.log(e)} print(this);",
-              "target": "_self"
-            }
-          }
-        ]
+        "onClick": []
       }
     },
     "Div191": {
@@ -693,6 +685,27 @@ const desktopModeProps = {
       "callbacks": {}
     },
     "Div220": {
+      "callbacks": {}
+    },
+    "Div221": {
+      "callbacks": {}
+    },
+    "Div222": {
+      "callbacks": {}
+    },
+    "Div224": {
+      "callbacks": {}
+    },
+    "Div225": {
+      "callbacks": {}
+    },
+    "Div226": {
+      "callbacks": {}
+    },
+    "Div223": {
+      "callbacks": {}
+    },
+    "Div227": {
       "callbacks": {}
     },
     "Image1": {
@@ -3016,6 +3029,109 @@ const desktopModeProps = {
     "TextBox147": {
       "custom": {
         "text": "/"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image70": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/close.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image63": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/whitearrowl.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image65": {
+      "custom": {
+        "alt": "No preview available"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image64": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/whitearrowr.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image66": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/pic4.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image67": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/pic3.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image68": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/pic2.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image69": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/pic1.png"
       },
       "callbacks": {
         "onClick": [
