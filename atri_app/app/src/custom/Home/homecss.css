@@ -313,21 +313,20 @@ transition: left 1s ease-out;
 }
 .accordion-title{
     color: #fff;
-    font-size: 24px;
+    font-size: 23px;
     line-height: 130%;
     font-weight: 400;
     letter-spacing: 0.3px;
 }
 
-.accordion-section:has(.accordion.active) > .accordion-content{
-    padding-top:25px;
+.accordion-content{
     background-color: #000000;
     margin-left: 1rem;
 }
 
 .accordion-text{
+    padding: 25px 0px 0px 0px;
     font-size: 18px;
     line-height: 150%;
-    padding: 0px;
     color: #666;
 }
