@@ -95,7 +95,7 @@ gap:19px;
 
 .Flex43 > div > :last-child> :first-child{
 font-size:19px;
-weight: 400;
+font-weight: 400;
 }
 
 .Flex43 > div{
@@ -392,4 +392,66 @@ transition: left 1s ease-out;
 
 .p-Home.Flex128 > [class*="TextBox"]:hover{
     color:#fff;
+}
+
+.p-Home.Div221{
+    opacity:1;
+    overflow: auto;
+    background: rgba(0,0,0,0.9);
+    z-index: 2000;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width:100vw;
+    display: none;
+}
+
+.p-Home.Div222{
+    display:flex;
+    justify-content: space-between;
+    height: 86vh;
+    align-items: center;
+    margin-top: 2vh;
+    margin-right: 1vw;
+}
+.p-Home.Div224, .p-Home.Div226{
+    width: 4em;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.p-Home.Image63, .p-Home.Image64{
+    width: 24px;
+    opacity: 0.5;
+}
+
+
+.p-Home.Div223{
+    display:flex;
+    height: 14vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.p-Home.Div227{
+    display: flex;
+}
+
+.p-Home.Div227 > div{
+    width:10vh;
+    height: 10vh;
+    padding: 2vh 1vh;
+    cursor: pointer;
+}
+.p-Home.Div227 > div > img, .p-Home.Image65{
+    object-fit: cover;
+    max-width: 82.3vw;
+    max-height: 84vh;
+}
+
+.p-Home.Image70 {
+    top:2vh;
+    right:1vw;
 }

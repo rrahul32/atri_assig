@@ -84,7 +84,11 @@ export function useTextBox3Cb() {
 			{
   "handlers": [
     {
-      "sendEventData": true
+      "navigate": {
+        "type": "external",
+        "url": "javascript: document.querySelector('.Flex41').scrollIntoView({behavior:'smooth'})",
+        "target": "_self"
+      }
     }
   ],
   "actions": [
@@ -100,7 +104,11 @@ export function useTextBox4Cb() {
 			{
   "handlers": [
     {
-      "sendEventData": true
+      "navigate": {
+        "type": "external",
+        "url": "javascript: document.querySelector('.Flex59').scrollIntoView({behavior:'smooth'})",
+        "target": "_self"
+      }
     }
   ],
   "actions": [
@@ -116,7 +124,11 @@ export function useTextBox5Cb() {
 			{
   "handlers": [
     {
-      "sendEventData": true
+      "navigate": {
+        "type": "external",
+        "url": "javascript: document.querySelector('.Flex15').scrollIntoView({behavior:'smooth'})",
+        "target": "_self"
+      }
     }
   ],
   "actions": [
@@ -132,7 +144,11 @@ export function useTextBox6Cb() {
 			{
   "handlers": [
     {
-      "sendEventData": true
+      "navigate": {
+        "type": "external",
+        "url": "javascript: document.querySelector('.Flex22').scrollIntoView({behavior:'smooth'})",
+        "target": "_self"
+      }
     }
   ],
   "actions": [
@@ -5038,7 +5054,15 @@ export function useTextBox123Cb() {
 export function useDiv193Cb() {
 	const onClick = useCallback(callbackFactory("Div193", "Home", "/", "onClick", 
 			{
-  "handlers": [],
+  "handlers": [
+    {
+      "navigate": {
+        "type": "external",
+        "url": "javascript: document.querySelector('.Flex59').scrollIntoView({behavior:'smooth'})",
+        "target": "_self"
+      }
+    }
+  ],
   "actions": [
     {
       "type": "do_nothing"
@@ -5294,7 +5318,15 @@ export function useTextBox137Cb() {
 export function useDiv198Cb() {
 	const onClick = useCallback(callbackFactory("Div198", "Home", "/", "onClick", 
 			{
-  "handlers": [],
+  "handlers": [
+    {
+      "navigate": {
+        "type": "external",
+        "url": "javascript: document.querySelector('.Flex15').scrollIntoView({behavior:'smooth'})",
+        "target": "_self"
+      }
+    }
+  ],
   "actions": [
     {
       "type": "do_nothing"
@@ -5334,7 +5366,15 @@ export function useTextBox138Cb() {
 export function useDiv200Cb() {
 	const onClick = useCallback(callbackFactory("Div200", "Home", "/", "onClick", 
 			{
-  "handlers": [],
+  "handlers": [
+    {
+      "navigate": {
+        "type": "external",
+        "url": "javascript: document.querySelector('.Flex62').scrollIntoView({behavior:'smooth'})",
+        "target": "_self"
+      }
+    }
+  ],
   "actions": [
     {
       "type": "do_nothing"
@@ -5414,7 +5454,15 @@ export function useTextBox140Cb() {
 export function useDiv204Cb() {
 	const onClick = useCallback(callbackFactory("Div204", "Home", "/", "onClick", 
 			{
-  "handlers": [],
+  "handlers": [
+    {
+      "navigate": {
+        "type": "external",
+        "url": "javascript: document.querySelector('.Flex42').scrollIntoView({behavior:'smooth'})",
+        "target": "_self"
+      }
+    }
+  ],
   "actions": [
     {
       "type": "do_nothing"
@@ -5454,7 +5502,15 @@ export function useTextBox141Cb() {
 export function useDiv206Cb() {
 	const onClick = useCallback(callbackFactory("Div206", "Home", "/", "onClick", 
 			{
-  "handlers": [],
+  "handlers": [
+    {
+      "navigate": {
+        "type": "external",
+        "url": "javascript: document.querySelector('.Flex22').scrollIntoView({behavior:'smooth'})",
+        "target": "_self"
+      }
+    }
+  ],
   "actions": [
     {
       "type": "do_nothing"
@@ -5690,7 +5746,11 @@ export function useTextBox147Cb() {
 export function useDiv221Cb() {
 	const onClick = useCallback(callbackFactory("Div221", "Home", "/", "onClick", 
 			{
-  "handlers": [],
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
   "actions": [
     {
       "type": "do_nothing"
@@ -5726,7 +5786,11 @@ export function useDiv223Cb() {
 export function useDiv224Cb() {
 	const onClick = useCallback(callbackFactory("Div224", "Home", "/", "onClick", 
 			{
-  "handlers": [],
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
   "actions": [
     {
       "type": "do_nothing"
@@ -5750,7 +5814,11 @@ export function useDiv225Cb() {
 export function useDiv226Cb() {
 	const onClick = useCallback(callbackFactory("Div226", "Home", "/", "onClick", 
 			{
-  "handlers": [],
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
   "actions": [
     {
       "type": "do_nothing"
@@ -5891,6 +5959,54 @@ export function useImage70Cb() {
       "sendEventData": true
     }
   ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useDiv228Cb() {
+	const onClick = useCallback(callbackFactory("Div228", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useDiv229Cb() {
+	const onClick = useCallback(callbackFactory("Div229", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useDiv230Cb() {
+	const onClick = useCallback(callbackFactory("Div230", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useDiv231Cb() {
+	const onClick = useCallback(callbackFactory("Div231", "Home", "/", "onClick", 
+			{
+  "handlers": [],
   "actions": [
     {
       "type": "do_nothing"

@@ -61,5 +61,77 @@ def handle_event(at: Atri, req: Request, res: Response):
             at.Div183.styles.left= '-101%'
             at.Div184.styles.zIndex= '1'
             at.Div184.styles.left= '-50%'
-        
+    
+    if at.Image34.onClick:
+        at.Div221.styles.display='block'
+        at.Image69.onClick=True
+
+    if at.Image35.onClick:
+        at.Div221.styles.display='block'
+        at.Image68.onClick=True
+
+    if at.Image36.onClick:
+        at.Div221.styles.display='block'
+        at.Image67.onClick=True
+
+    if at.Image37.onClick:
+        at.Div221.styles.display='block'
+        at.Image66.onClick=True
+
+    if at.Div224.onClick:
+        if at.Image65.custom.src==at.Image66.custom.src:
+            at.Image67.onClick=True
+        elif at.Image65.custom.src==at.Image67.custom.src:
+            at.Image68.onClick=True
+        elif at.Image65.custom.src==at.Image68.custom.src:
+            at.Image69.onClick=True
+
+    if at.Div226.onClick:
+        if at.Image65.custom.src==at.Image69.custom.src:
+            at.Image68.onClick=True
+        elif at.Image65.custom.src==at.Image68.custom.src:
+            at.Image67.onClick=True
+        elif at.Image65.custom.src==at.Image67.custom.src:
+            at.Image66.onClick=True
+          
+    if at.Image66.onClick:
+        at.Image66.styles.opacity='0.3'
+        at.Image65.custom.src=at.Image66.custom.src
+        at.Image67.styles.opacity=''
+        at.Image68.styles.opacity=''
+        at.Image69.styles.opacity=''
+        at.Image64.styles.opacity='0'
+        at.Image63.styles.opacity=''
+
+
+    if at.Image67.onClick:
+        at.Image67.styles.opacity='0.3'
+        at.Image65.custom.src=at.Image67.custom.src
+        at.Image66.styles.opacity=''
+        at.Image68.styles.opacity=''
+        at.Image69.styles.opacity=''
+        at.Image63.styles.opacity=''
+        at.Image64.styles.opacity=''
+    
+    if at.Image68.onClick:
+        at.Image68.styles.opacity='0.3'
+        at.Image65.custom.src=at.Image68.custom.src
+        at.Image66.styles.opacity=''
+        at.Image67.styles.opacity=''
+        at.Image69.styles.opacity=''
+        at.Image63.styles.opacity=''
+        at.Image64.styles.opacity=''
+
+    if at.Image69.onClick:
+        at.Image69.styles.opacity='0.3'
+        at.Image65.custom.src=at.Image69.custom.src
+        at.Image66.styles.opacity=''
+        at.Image67.styles.opacity=''
+        at.Image68.styles.opacity=''
+        at.Image63.styles.opacity='0'
+        at.Image64.styles.opacity=''
+    
+    if at.Image70.onClick:
+        at.Div221.styles.display='none'
+    
             

@@ -640,31 +640,87 @@ const desktopModeProps = {
       "callbacks": {}
     },
     "Div193": {
-      "callbacks": {}
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "javascript: document.querySelector('.Flex59').scrollIntoView({behavior:'smooth'})",
+              "target": "_self"
+            }
+          }
+        ]
+      }
     },
     "Div198": {
-      "callbacks": {}
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "javascript: document.querySelector('.Flex15').scrollIntoView({behavior:'smooth'})",
+              "target": "_self"
+            }
+          }
+        ]
+      }
     },
     "Div200": {
-      "callbacks": {}
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "javascript: document.querySelector('.Flex62').scrollIntoView({behavior:'smooth'})",
+              "target": "_self"
+            }
+          }
+        ]
+      }
     },
     "Div202": {
-      "callbacks": {}
+      "callbacks": {
+        "onClick": []
+      }
     },
     "Div204": {
-      "callbacks": {}
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "javascript: document.querySelector('.Flex42').scrollIntoView({behavior:'smooth'})",
+              "target": "_self"
+            }
+          }
+        ]
+      }
     },
     "Div206": {
-      "callbacks": {}
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "javascript: document.querySelector('.Flex22').scrollIntoView({behavior:'smooth'})",
+              "target": "_self"
+            }
+          }
+        ]
+      }
     },
     "Div208": {
       "callbacks": {}
     },
     "Div210": {
-      "callbacks": {}
+      "callbacks": {
+        "onClick": []
+      }
     },
     "Div212": {
-      "callbacks": {}
+      "callbacks": {
+        "onClick": []
+      }
     },
     "Flex128": {
       "callbacks": {}
@@ -688,25 +744,63 @@ const desktopModeProps = {
       "callbacks": {}
     },
     "Div221": {
-      "callbacks": {}
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
     },
     "Div222": {
       "callbacks": {}
     },
     "Div224": {
-      "callbacks": {}
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
     },
     "Div225": {
       "callbacks": {}
     },
     "Div226": {
-      "callbacks": {}
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
     },
     "Div223": {
       "callbacks": {}
     },
     "Div227": {
       "callbacks": {}
+    },
+    "Div228": {
+      "callbacks": {
+        "onClick": []
+      }
+    },
+    "Div229": {
+      "callbacks": {
+        "onClick": []
+      }
+    },
+    "Div230": {
+      "callbacks": {
+        "onClick": []
+      }
+    },
+    "Div231": {
+      "callbacks": {
+        "onClick": []
+      }
     },
     "Image1": {
       "custom": {
@@ -731,7 +825,11 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "external",
+              "url": "javascript: document.querySelector('.Flex41').scrollIntoView({behavior:'smooth'})",
+              "target": "_self"
+            }
           }
         ]
       }
@@ -743,7 +841,11 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "external",
+              "url": "javascript: document.querySelector('.Flex59').scrollIntoView({behavior:'smooth'})",
+              "target": "_self"
+            }
           }
         ]
       }
@@ -755,7 +857,11 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "external",
+              "url": "javascript: document.querySelector('.Flex15').scrollIntoView({behavior:'smooth'})",
+              "target": "_self"
+            }
           }
         ]
       }
@@ -767,7 +873,11 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "external",
+              "url": "javascript: document.querySelector('.Flex22').scrollIntoView({behavior:'smooth'})",
+              "target": "_self"
+            }
           }
         ]
       }
@@ -3089,23 +3199,10 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image66": {
+    "Image69": {
       "custom": {
         "alt": "No preview available",
-        "src": "/app-assets/pic4.png"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Image67": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/pic3.png"
+        "src": "/app-assets/pic1.png"
       },
       "callbacks": {
         "onClick": [
@@ -3128,10 +3225,23 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image69": {
+    "Image67": {
       "custom": {
         "alt": "No preview available",
-        "src": "/app-assets/pic1.png"
+        "src": "/app-assets/pic3.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image66": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/pic4.png"
       },
       "callbacks": {
         "onClick": [
