@@ -4675,3 +4675,163 @@ export function useDiv184Cb() {
 }), [])
 	return { onClick }
 }
+export function useFlex118Cb() {
+	const onClick = useCallback(callbackFactory("Flex118", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex119Cb() {
+	const onClick = useCallback(callbackFactory("Flex119", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex120Cb() {
+	const onClick = useCallback(callbackFactory("Flex120", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex121Cb() {
+	const onClick = useCallback(callbackFactory("Flex121", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useDiv186Cb() {
+	const onClick = useCallback(callbackFactory("Div186", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useDiv187Cb() {
+	const onClick = useCallback(callbackFactory("Div187", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex122Cb() {
+	const onClick = useCallback(callbackFactory("Flex122", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex123Cb() {
+	const onClick = useCallback(callbackFactory("Flex123", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useAccordion1Cb() {
+	const onTitleClick = useCallback(callbackFactory("Accordion1", "Home", "/", "onTitleClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "controlled",
+      "selector": [
+        "custom",
+        "open"
+      ]
+    }
+  ]
+}), [])
+	return { onTitleClick }
+}
+export function useAccordion2Cb() {
+	const onTitleClick = useCallback(callbackFactory("Accordion2", "Home", "/", "onTitleClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "controlled",
+      "selector": [
+        "custom",
+        "open"
+      ]
+    }
+  ]
+}), [])
+	return { onTitleClick }
+}
+export function useTextBox116Cb() {
+	const onClick = useCallback(callbackFactory("TextBox116", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox117Cb() {
+	const onClick = useCallback(callbackFactory("TextBox117", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}

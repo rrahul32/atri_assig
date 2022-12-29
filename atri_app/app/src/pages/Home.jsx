@@ -9,7 +9,8 @@ import { Div } from "@atrilabs/react-component-manifests/src/manifests/Div/Div.t
 import { Image } from "@atrilabs/react-component-manifests/src/manifests/Image/Image.tsx";
 import { TextBox } from "@atrilabs/react-component-manifests/src/manifests/TextBox/TextBox.tsx";
 import { Button } from "@atrilabs/react-component-manifests/src/manifests/Button/Button.tsx";
-import { useFlex1Cb, useFlex2Cb, useDiv2Cb, useDiv3Cb, useFlex4Cb, useFlex5Cb, useFlex6Cb, useFlex7Cb, useDiv5Cb, useDiv13Cb, useDiv14Cb, useFlex9Cb, useDiv18Cb, useDiv19Cb, useFlex10Cb, useDiv17Cb, useFlex12Cb, useDiv20Cb, useDiv21Cb, useDiv22Cb, useFlex14Cb, useDiv166Cb, useDiv167Cb, useDiv168Cb, useDiv169Cb, useFlex15Cb, useDiv23Cb, useFlex17Cb, useDiv25Cb, useDiv28Cb, useDiv29Cb, useDiv30Cb, useDiv48Cb, useDiv32Cb, useDiv33Cb, useDiv31Cb, useDiv26Cb, useDiv34Cb, useDiv35Cb, useDiv36Cb, useDiv49Cb, useDiv37Cb, useDiv38Cb, useDiv39Cb, useDiv27Cb, useDiv40Cb, useDiv41Cb, useDiv42Cb, useDiv50Cb, useDiv43Cb, useDiv44Cb, useDiv45Cb, useFlex18Cb, useFlex22Cb, useFlex23Cb, useDiv51Cb, useDiv53Cb, useDiv52Cb, useFlex24Cb, useDiv71Cb, useDiv72Cb, useDiv77Cb, useFlex29Cb, useDiv79Cb, useDiv73Cb, useDiv80Cb, useFlex30Cb, useDiv81Cb, useDiv74Cb, useDiv83Cb, useFlex31Cb, useDiv84Cb, useDiv75Cb, useDiv86Cb, useFlex33Cb, useDiv87Cb, useDiv76Cb, useDiv88Cb, useFlex34Cb, useDiv89Cb, useFlex37Cb, useFlex38Cb, useFlex39Cb, useFlex41Cb, useFlex42Cb, useDiv95Cb, useFlex58Cb, useFlex43Cb, useDiv96Cb, useFlex56Cb, useFlex57Cb, useDiv97Cb, useFlex54Cb, useFlex55Cb, useDiv98Cb, useFlex52Cb, useFlex53Cb, useDiv99Cb, useFlex50Cb, useFlex51Cb, useDiv100Cb, useFlex44Cb, useFlex45Cb, useFlex59Cb, useDiv109Cb, useFlex60Cb, useDiv112Cb, useDiv113Cb, useDiv114Cb, useDiv115Cb, useDiv116Cb, useDiv117Cb, useDiv118Cb, useFlex62Cb, useFlex63Cb, useFlex64Cb, useDiv119Cb, useFlex66Cb, useDiv123Cb, useDiv129Cb, useFlex68Cb, useDiv131Cb, useFlex75Cb, useDiv124Cb, useFlex71Cb, useDiv137Cb, useDiv136Cb, useFlex76Cb, useDiv138Cb, useFlex72Cb, useDiv140Cb, useDiv139Cb, useDiv157Cb, useFlex77Cb, useFlex73Cb, useDiv141Cb, useFlex74Cb, useFlex90Cb, useFlex78Cb, useFlex81Cb, useFlex82Cb, useDiv146Cb, useFlex87Cb, useDiv158Cb, useFlex91Cb, useFlex79Cb, useFlex83Cb, useFlex84Cb, useDiv147Cb, useFlex88Cb, useDiv160Cb, useFlex93Cb, useFlex80Cb, useFlex85Cb, useFlex86Cb, useDiv151Cb, useFlex89Cb, useDiv164Cb, useFlex99Cb, useFlex100Cb, useFlex108Cb, useFlex113Cb, useFlex111Cb, useFlex112Cb, useFlex114Cb, useDiv174Cb, useFlex109Cb, useDiv175Cb, useFlex116Cb, useFlex115Cb, useDiv180Cb, useDiv182Cb, useImage1Cb, useTextBox3Cb, useTextBox4Cb, useTextBox5Cb, useTextBox6Cb, useTextBox7Cb, useImage3Cb, useImage5Cb, useTextBox8Cb, useTextBox9Cb, useButton2Cb, useButton4Cb, useImage6Cb, useTextBox11Cb, useTextBox10Cb, useTextBox12Cb, useImage7Cb, useImage8Cb, useImage9Cb, useImage10Cb, useImage11Cb, useTextBox15Cb, useTextBox18Cb, useTextBox24Cb, useTextBox27Cb, useTextBox21Cb, useImage12Cb, useTextBox16Cb, useTextBox19Cb, useTextBox22Cb, useTextBox25Cb, useTextBox28Cb, useImage13Cb, useTextBox17Cb, useTextBox20Cb, useTextBox23Cb, useTextBox26Cb, useTextBox29Cb, useTextBox13Cb, useTextBox14Cb, useFlex40Cb, useTextBox32Cb, useTextBox30Cb, useTextBox31Cb, useButton5Cb, useButton6Cb, useTextBox33Cb, useTextBox34Cb, useTextBox36Cb, useImage21Cb, useImage16Cb, useTextBox37Cb, useTextBox38Cb, useTextBox39Cb, useImage22Cb, useImage17Cb, useTextBox40Cb, useTextBox41Cb, useTextBox42Cb, useImage23Cb, useImage18Cb, useTextBox43Cb, useTextBox44Cb, useTextBox45Cb, useImage24Cb, useImage19Cb, useTextBox46Cb, useTextBox47Cb, useTextBox48Cb, useImage25Cb, useImage20Cb, useImage27Cb, useImage26Cb, useTextBox71Cb, useTextBox72Cb, useTextBox73Cb, useImage33Cb, useTextBox67Cb, useTextBox68Cb, useDiv106Cb, useTextBox69Cb, useTextBox70Cb, useImage32Cb, useTextBox63Cb, useTextBox64Cb, useDiv105Cb, useTextBox65Cb, useTextBox66Cb, useImage31Cb, useTextBox59Cb, useTextBox60Cb, useDiv104Cb, useTextBox61Cb, useTextBox62Cb, useImage30Cb, useTextBox55Cb, useTextBox56Cb, useDiv103Cb, useTextBox57Cb, useTextBox58Cb, useImage29Cb, useTextBox49Cb, useDiv102Cb, useTextBox51Cb, useTextBox53Cb, useTextBox52Cb, useImage28Cb, useTextBox74Cb, useTextBox75Cb, useTextBox76Cb, useImage34Cb, useImage35Cb, useImage36Cb, useImage37Cb, useTextBox77Cb, useDiv155Cb, useTextBox80Cb, useTextBox82Cb, useTextBox79Cb, useImage38Cb, useTextBox88Cb, useTextBox89Cb, useDiv156Cb, useTextBox81Cb, useImage39Cb, useTextBox91Cb, useTextBox92Cb, useTextBox108Cb, useTextBox90Cb, useImage40Cb, useTextBox93Cb, useImage41Cb, useTextBox94Cb, useTextBox96Cb, useTextBox95Cb, useImage42Cb, useDiv159Cb, useImage43Cb, useTextBox97Cb, useTextBox99Cb, useTextBox98Cb, useImage44Cb, useDiv161Cb, useImage45Cb, useTextBox101Cb, useTextBox103Cb, useTextBox100Cb, useImage46Cb, useDiv165Cb, useTextBox107Cb, useTextBox115Cb, useImage56Cb, useImage57Cb, useImage55Cb, useDiv183Cb, useTextBox109Cb, useImage54Cb, useTextBox110Cb, useTextBox111Cb, useImage58Cb, useTextBox114Cb, useTextBox112Cb, useTextBox113Cb, useImage59Cb, useDiv184Cb } from "../page-cbs/Home";
+import { Accordion } from "@atrilabs/react-component-manifests/src/manifests/Accordion/Accordion.tsx";
+import { useFlex1Cb, useFlex2Cb, useDiv2Cb, useDiv3Cb, useFlex4Cb, useFlex5Cb, useFlex6Cb, useFlex7Cb, useDiv5Cb, useDiv13Cb, useDiv14Cb, useFlex9Cb, useDiv18Cb, useDiv19Cb, useFlex10Cb, useDiv17Cb, useFlex12Cb, useDiv20Cb, useDiv21Cb, useDiv22Cb, useFlex14Cb, useDiv166Cb, useDiv167Cb, useDiv168Cb, useDiv169Cb, useFlex15Cb, useDiv23Cb, useFlex17Cb, useDiv25Cb, useDiv28Cb, useDiv29Cb, useDiv30Cb, useDiv48Cb, useDiv32Cb, useDiv33Cb, useDiv31Cb, useDiv26Cb, useDiv34Cb, useDiv35Cb, useDiv36Cb, useDiv49Cb, useDiv37Cb, useDiv38Cb, useDiv39Cb, useDiv27Cb, useDiv40Cb, useDiv41Cb, useDiv42Cb, useDiv50Cb, useDiv43Cb, useDiv44Cb, useDiv45Cb, useFlex18Cb, useFlex22Cb, useFlex23Cb, useDiv51Cb, useDiv53Cb, useDiv52Cb, useFlex24Cb, useDiv71Cb, useDiv72Cb, useDiv77Cb, useFlex29Cb, useDiv79Cb, useDiv73Cb, useDiv80Cb, useFlex30Cb, useDiv81Cb, useDiv74Cb, useDiv83Cb, useFlex31Cb, useDiv84Cb, useDiv75Cb, useDiv86Cb, useFlex33Cb, useDiv87Cb, useDiv76Cb, useDiv88Cb, useFlex34Cb, useDiv89Cb, useFlex37Cb, useFlex38Cb, useFlex39Cb, useFlex41Cb, useFlex42Cb, useDiv95Cb, useFlex58Cb, useFlex43Cb, useDiv96Cb, useFlex56Cb, useFlex57Cb, useDiv97Cb, useFlex54Cb, useFlex55Cb, useDiv98Cb, useFlex52Cb, useFlex53Cb, useDiv99Cb, useFlex50Cb, useFlex51Cb, useDiv100Cb, useFlex44Cb, useFlex45Cb, useFlex59Cb, useDiv109Cb, useFlex60Cb, useDiv112Cb, useDiv113Cb, useDiv114Cb, useDiv115Cb, useDiv116Cb, useDiv117Cb, useDiv118Cb, useFlex62Cb, useFlex63Cb, useFlex64Cb, useDiv119Cb, useFlex66Cb, useDiv123Cb, useDiv129Cb, useFlex68Cb, useDiv131Cb, useFlex75Cb, useDiv124Cb, useFlex71Cb, useDiv137Cb, useDiv136Cb, useFlex76Cb, useDiv138Cb, useFlex72Cb, useDiv140Cb, useDiv139Cb, useDiv157Cb, useFlex77Cb, useFlex73Cb, useDiv141Cb, useFlex74Cb, useFlex90Cb, useFlex78Cb, useFlex81Cb, useFlex82Cb, useDiv146Cb, useFlex87Cb, useDiv158Cb, useFlex91Cb, useFlex79Cb, useFlex83Cb, useFlex84Cb, useDiv147Cb, useFlex88Cb, useDiv160Cb, useFlex93Cb, useFlex80Cb, useFlex85Cb, useFlex86Cb, useDiv151Cb, useFlex89Cb, useDiv164Cb, useFlex99Cb, useFlex100Cb, useFlex108Cb, useFlex113Cb, useFlex111Cb, useFlex112Cb, useFlex114Cb, useDiv174Cb, useFlex109Cb, useDiv175Cb, useFlex116Cb, useFlex115Cb, useDiv180Cb, useDiv182Cb, useFlex118Cb, useFlex119Cb, useFlex120Cb, useDiv186Cb, useDiv187Cb, useFlex121Cb, useFlex122Cb, useFlex123Cb, useImage1Cb, useTextBox3Cb, useTextBox4Cb, useTextBox5Cb, useTextBox6Cb, useTextBox7Cb, useImage3Cb, useImage5Cb, useTextBox8Cb, useTextBox9Cb, useButton2Cb, useButton4Cb, useImage6Cb, useTextBox11Cb, useTextBox10Cb, useTextBox12Cb, useImage7Cb, useImage8Cb, useImage9Cb, useImage10Cb, useImage11Cb, useTextBox15Cb, useTextBox18Cb, useTextBox24Cb, useTextBox27Cb, useTextBox21Cb, useImage12Cb, useTextBox16Cb, useTextBox19Cb, useTextBox22Cb, useTextBox25Cb, useTextBox28Cb, useImage13Cb, useTextBox17Cb, useTextBox20Cb, useTextBox23Cb, useTextBox26Cb, useTextBox29Cb, useTextBox13Cb, useTextBox14Cb, useFlex40Cb, useTextBox32Cb, useTextBox30Cb, useTextBox31Cb, useButton5Cb, useButton6Cb, useTextBox33Cb, useTextBox34Cb, useTextBox36Cb, useImage21Cb, useImage16Cb, useTextBox37Cb, useTextBox38Cb, useTextBox39Cb, useImage22Cb, useImage17Cb, useTextBox40Cb, useTextBox41Cb, useTextBox42Cb, useImage23Cb, useImage18Cb, useTextBox43Cb, useTextBox44Cb, useTextBox45Cb, useImage24Cb, useImage19Cb, useTextBox46Cb, useTextBox47Cb, useTextBox48Cb, useImage25Cb, useImage20Cb, useImage27Cb, useImage26Cb, useTextBox71Cb, useTextBox72Cb, useTextBox73Cb, useImage33Cb, useTextBox67Cb, useTextBox68Cb, useDiv106Cb, useTextBox69Cb, useTextBox70Cb, useImage32Cb, useTextBox63Cb, useTextBox64Cb, useDiv105Cb, useTextBox65Cb, useTextBox66Cb, useImage31Cb, useTextBox59Cb, useTextBox60Cb, useDiv104Cb, useTextBox61Cb, useTextBox62Cb, useImage30Cb, useTextBox55Cb, useTextBox56Cb, useDiv103Cb, useTextBox57Cb, useTextBox58Cb, useImage29Cb, useTextBox49Cb, useDiv102Cb, useTextBox51Cb, useTextBox53Cb, useTextBox52Cb, useImage28Cb, useTextBox74Cb, useTextBox75Cb, useTextBox76Cb, useImage34Cb, useImage35Cb, useImage36Cb, useImage37Cb, useTextBox77Cb, useDiv155Cb, useTextBox80Cb, useTextBox82Cb, useTextBox79Cb, useImage38Cb, useTextBox88Cb, useTextBox89Cb, useDiv156Cb, useTextBox81Cb, useImage39Cb, useTextBox91Cb, useTextBox92Cb, useTextBox108Cb, useTextBox90Cb, useImage40Cb, useTextBox93Cb, useImage41Cb, useTextBox94Cb, useTextBox96Cb, useTextBox95Cb, useImage42Cb, useDiv159Cb, useImage43Cb, useTextBox97Cb, useTextBox99Cb, useTextBox98Cb, useImage44Cb, useDiv161Cb, useImage45Cb, useTextBox101Cb, useTextBox103Cb, useTextBox100Cb, useImage46Cb, useDiv165Cb, useTextBox107Cb, useTextBox115Cb, useImage56Cb, useImage57Cb, useImage55Cb, useDiv183Cb, useTextBox109Cb, useImage54Cb, useTextBox110Cb, useTextBox111Cb, useImage58Cb, useTextBox114Cb, useTextBox112Cb, useTextBox113Cb, useImage59Cb, useDiv184Cb, useTextBox116Cb, useTextBox117Cb, useAccordion1Cb, useAccordion2Cb } from "../page-cbs/Home";
 import "../page-css/Home.css";
 import "../custom/Home";
 
@@ -545,6 +546,30 @@ const Div180Cb = useDiv180Cb()
 const Div182Props = useStore((state)=>state["Home"]["Div182"]);
 const Div182IoProps = useIoStore((state)=>state["Home"]["Div182"]);
 const Div182Cb = useDiv182Cb()
+const Flex118Props = useStore((state)=>state["Home"]["Flex118"]);
+const Flex118IoProps = useIoStore((state)=>state["Home"]["Flex118"]);
+const Flex118Cb = useFlex118Cb()
+const Flex119Props = useStore((state)=>state["Home"]["Flex119"]);
+const Flex119IoProps = useIoStore((state)=>state["Home"]["Flex119"]);
+const Flex119Cb = useFlex119Cb()
+const Flex120Props = useStore((state)=>state["Home"]["Flex120"]);
+const Flex120IoProps = useIoStore((state)=>state["Home"]["Flex120"]);
+const Flex120Cb = useFlex120Cb()
+const Div186Props = useStore((state)=>state["Home"]["Div186"]);
+const Div186IoProps = useIoStore((state)=>state["Home"]["Div186"]);
+const Div186Cb = useDiv186Cb()
+const Div187Props = useStore((state)=>state["Home"]["Div187"]);
+const Div187IoProps = useIoStore((state)=>state["Home"]["Div187"]);
+const Div187Cb = useDiv187Cb()
+const Flex121Props = useStore((state)=>state["Home"]["Flex121"]);
+const Flex121IoProps = useIoStore((state)=>state["Home"]["Flex121"]);
+const Flex121Cb = useFlex121Cb()
+const Flex122Props = useStore((state)=>state["Home"]["Flex122"]);
+const Flex122IoProps = useIoStore((state)=>state["Home"]["Flex122"]);
+const Flex122Cb = useFlex122Cb()
+const Flex123Props = useStore((state)=>state["Home"]["Flex123"]);
+const Flex123IoProps = useIoStore((state)=>state["Home"]["Flex123"]);
+const Flex123Cb = useFlex123Cb()
 const Image1Props = useStore((state)=>state["Home"]["Image1"]);
 const Image1IoProps = useIoStore((state)=>state["Home"]["Image1"]);
 const Image1Cb = useImage1Cb()
@@ -1040,6 +1065,18 @@ const Image59Cb = useImage59Cb()
 const Div184Props = useStore((state)=>state["Home"]["Div184"]);
 const Div184IoProps = useIoStore((state)=>state["Home"]["Div184"]);
 const Div184Cb = useDiv184Cb()
+const TextBox116Props = useStore((state)=>state["Home"]["TextBox116"]);
+const TextBox116IoProps = useIoStore((state)=>state["Home"]["TextBox116"]);
+const TextBox116Cb = useTextBox116Cb()
+const TextBox117Props = useStore((state)=>state["Home"]["TextBox117"]);
+const TextBox117IoProps = useIoStore((state)=>state["Home"]["TextBox117"]);
+const TextBox117Cb = useTextBox117Cb()
+const Accordion1Props = useStore((state)=>state["Home"]["Accordion1"]);
+const Accordion1IoProps = useIoStore((state)=>state["Home"]["Accordion1"]);
+const Accordion1Cb = useAccordion1Cb()
+const Accordion2Props = useStore((state)=>state["Home"]["Accordion2"]);
+const Accordion2IoProps = useIoStore((state)=>state["Home"]["Accordion2"]);
+const Accordion2Cb = useAccordion2Cb()
 
   return (<>
   <Flex className="p-Home Flex1 bpt" {...Flex1Props} {...Flex1Cb} {...Flex1IoProps}>
@@ -1547,6 +1584,26 @@ const Div184Cb = useDiv184Cb()
 </Flex>
 <Flex className="p-Home Flex112 bpt" {...Flex112Props} {...Flex112Cb} {...Flex112IoProps}>
 <Image className="p-Home Image57 bpt" {...Image57Props} {...Image57Cb} {...Image57IoProps}/>
+</Flex>
+</Flex>
+</Flex>
+</Flex>
+<Flex className="p-Home Flex118 bpt" {...Flex118Props} {...Flex118Cb} {...Flex118IoProps}>
+<Flex className="p-Home Flex119 bpt" {...Flex119Props} {...Flex119Cb} {...Flex119IoProps}>
+<Flex className="p-Home Flex120 bpt" {...Flex120Props} {...Flex120Cb} {...Flex120IoProps}>
+<Div className="p-Home Div186 bpt" {...Div186Props} {...Div186Cb} {...Div186IoProps}>
+<TextBox className="p-Home TextBox116 bpt" {...TextBox116Props} {...TextBox116Cb} {...TextBox116IoProps}/>
+</Div>
+<Div className="p-Home Div187 bpt" {...Div187Props} {...Div187Cb} {...Div187IoProps}>
+<TextBox className="p-Home TextBox117 bpt" {...TextBox117Props} {...TextBox117Cb} {...TextBox117IoProps}/>
+</Div>
+</Flex>
+<Flex className="p-Home Flex121 bpt" {...Flex121Props} {...Flex121Cb} {...Flex121IoProps}>
+<Flex className="p-Home Flex122 bpt" {...Flex122Props} {...Flex122Cb} {...Flex122IoProps}>
+<Accordion className="p-Home Accordion1 bpt" {...Accordion1Props} {...Accordion1Cb} {...Accordion1IoProps}/>
+</Flex>
+<Flex className="p-Home Flex123 bpt" {...Flex123Props} {...Flex123Cb} {...Flex123IoProps}>
+<Accordion className="p-Home Accordion2 bpt" {...Accordion2Props} {...Accordion2Cb} {...Accordion2IoProps}/>
 </Flex>
 </Flex>
 </Flex>

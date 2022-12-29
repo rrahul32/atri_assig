@@ -586,6 +586,30 @@ const desktopModeProps = {
     "Div182": {
       "callbacks": {}
     },
+    "Flex118": {
+      "callbacks": {}
+    },
+    "Flex119": {
+      "callbacks": {}
+    },
+    "Flex120": {
+      "callbacks": {}
+    },
+    "Div186": {
+      "callbacks": {}
+    },
+    "Div187": {
+      "callbacks": {}
+    },
+    "Flex121": {
+      "callbacks": {}
+    },
+    "Flex122": {
+      "callbacks": {}
+    },
+    "Flex123": {
+      "callbacks": {}
+    },
     "Image1": {
       "custom": {
         "alt": "No preview available",
@@ -2498,6 +2522,66 @@ const desktopModeProps = {
       }
     },
     "Div184": {
+      "callbacks": {}
+    },
+    "TextBox116": {
+      "custom": {
+        "text": "faq"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox117": {
+      "custom": {
+        "text": "Frequently asked questions"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Accordion1": {
+      "custom": {
+        "title": [
+          "What type of projects do you take on?",
+          "What is your hourly rate?",
+          "What time-zone do you work in?",
+          "What is the typical timeline for a project?"
+        ],
+        "description": [
+          "I usually work on B2C software, that's my forte--where I shine best. But I also have about 15 B2B software products in my portfolio. I do end-to-end product design + branding.",
+          "I only charge hourly for my ongoing projects that need work on the regular. One-time projects are charged upfront to keep it transparent and clean! My hourly rate is $100.",
+          "I work Pacific Standard Time, but I'm always ready to help out in emergencies, no matter the hour.",
+          "Depends on the scope of the project, really. Some projects take less than a week. Some take months. The best way to find out is to get on a quick call with me, and discuss it. No strings attached!"
+        ],
+        "open": []
+      },
+      "callbacks": {}
+    },
+    "Accordion2": {
+      "custom": {
+        "title": [
+          "How do you charge for projects ?",
+          "What does your design process look like?",
+          "What metrics do you use to measure success?",
+          "What if I need help after the project is complete?"
+        ],
+        "description": [
+          "I quote a price upfront--so that you know exactly what you're paying and for what, and there are no surprises later. The exact cost of your project depends on the scope and requirements!",
+          "I take a problem-forward approach. Whether we're iterating on an existing product or building a new one from scratch, how to solve the user's problem in the simplest way possible is my first concern.  Send me an email to understand my process in depth!",
+          "The best metrics are customer adoption, happiness, task success, and engagement. There are a number of frameworks such as the System Usability Scale that help us understand product performance and I'm happy to help with that.",
+          "I always make sure to help out my clients one month after the project ends, for free. For any help post that, we can work out an ongoing arrangement!"
+        ],
+        "open": []
+      },
       "callbacks": {}
     }
   }

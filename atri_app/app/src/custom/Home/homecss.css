@@ -27,7 +27,7 @@ text-transform: uppercase;
 width: fit-content;
 }
 
-.Div71 > div > div > [class*="TextBox"]:first-child, .TextBox71, .TextBox115{
+.Div71 > div > div > [class*="TextBox"]:first-child, .TextBox71, .TextBox115, .TextBox116{
 letter-spacing: 4px;
 text-transform: uppercase;
 background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
@@ -286,4 +286,48 @@ opacity:0%;
 .p-Home.Div183,.p-Home.Div184{
 left:-50%;
 transition: left 1s ease-out;
+}
+
+.accordion-section{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid hsla(0, 0%, 89.8%, 0.3);
+}
+
+.accordion, .accordion:hover{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 0px;
+}
+
+.accordion-icon{
+    transform:rotateZ(90deg)
+}
+
+.accordion.active > .accordion-icon{
+    transform: rotateZ(270deg);
+}
+.accordion-icon path{
+    fill: #fff;
+}
+.accordion-title{
+    color: #fff;
+    font-size: 24px;
+    line-height: 130%;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+
+.accordion-section:has(.accordion.active) > .accordion-content{
+    padding-top:25px;
+    background-color: #000000;
+    margin-left: 1rem;
+}
+
+.accordion-text{
+    font-size: 18px;
+    line-height: 150%;
+    padding: 0px;
+    color: #666;
 }

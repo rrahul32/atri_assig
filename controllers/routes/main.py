@@ -16,7 +16,9 @@ def handle_page_request(at: Atri, req: Request, res: Response, query: str):
     """
     This function is called whenever a user loads this route in the browser.
     """
-    pass
+    print(dir(at.Accordion2.custom.title))
+
+
 def handle_event(at: Atri, req: Request, res: Response):
     """
     This function is called whenever an event is received. An event occurs when user
@@ -43,7 +45,7 @@ def handle_event(at: Atri, req: Request, res: Response):
         x-=1
         at.Div71.styles.left= f"calc(-{x} * (40% + 24px))"
 
-    if at.Flex111.onClick:
+    if at.Flex111.onClick or at.Flex112.onClick:
         # print(dir(at.Div183.styles))
         if at.Flex114.styles.opacity=='' or at.Flex114.styles.opacity== '100%':
             at.Flex114.styles.opacity= '0'
