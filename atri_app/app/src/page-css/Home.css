@@ -39,7 +39,7 @@ cursor: pointer;
 .p-Home.Flex6 {
 display: flex;
 padding-top: 70px;
-padding-bottom: 120px;
+padding-bottom: 20px;
 align-items: stretch;
 justify-content: center;
 }
@@ -131,6 +131,8 @@ width: 100%;
 .p-Home.Flex15 {
 display: flex;
 justify-content: center;
+padding-top: 80px;
+padding-bottom: 80px;
 }
 .p-Home.Div23 {
 width: 85%;
@@ -404,7 +406,7 @@ display: flex;
 width: 100%;
 align-items: stretch;
 justify-content: flex-end;
-column-gap: 3px;
+column-gap: 6px;
 background-color: transparent;
 padding-top: ;
 margin-top: ;
@@ -464,7 +466,7 @@ display: flex;
 padding-top: 40px;
 flex-direction: column;
 width: 57%;
-row-gap: 65px;
+row-gap: ;
 }
 .p-Home.Div96 {
 ;
@@ -1795,11 +1797,13 @@ padding-bottom: 8px;
 font-family: IBM Plex Sans;
 font-weight: 700;
 font-size: 20px;
+line-height: 100%;
 }
 .p-Home.TextBox111 {
 font-family: IBM Plex Sans;
 font-weight: 300;
 font-size: 18px;
+line-height: 100%;
 }
 .p-Home.Image58 {
 width: 45px;
@@ -1816,12 +1820,14 @@ line-height: 130%;
 font-family: IBM Plex Sans;
 font-weight: 300;
 font-size: 18px;
+line-height: 100%;
 }
 .p-Home.TextBox113 {
 padding-bottom: 8px;
 font-family: IBM Plex Sans;
 font-weight: 700;
 font-size: 20px;
+line-height: 100%;
 }
 .p-Home.Image59 {
 width: 100%;
@@ -1871,7 +1877,7 @@ line-height: 110%;
 font-family: IBM Plex Sans;
 font-weight: 700;
 font-size: 54px;
-line-height: ;
+line-height: 110%;
 background-clip: text;
 -webkit-background-clip: text;
 color: transparent;
@@ -1896,6 +1902,7 @@ font-family: IBM Plex Sans;
 font-weight: 700;
 font-size: 17px;
 line-height: 36px;
+color: #5c5c5c;
 }
 .p-Home.Image62 {
 ;

@@ -164,7 +164,6 @@ grid-template-columns: 1fr 1.5fr 1fr;
 width:100%;
 margin-right: auto;
 margin-left: auto;
-padding-top: 80px;
 padding-bottom: 80px;
 -webkit-box-pack: justify;
 justify-content: space-between;
@@ -227,15 +226,16 @@ font-weight: 500;
 .p-Home.Flex66 > div > :first-child, .p-Home.Flex74 > div > :first-child > :last-child > :first-child{
 font-size: 25px;
 line-height: 110%;
-padding-bottom: 14px;
+padding-bottom: 8px;
 align-items:flex-start;
 }
 
 .p-Home.Flex66 > div > :nth-child(2), .p-Home.Flex74 > div > :first-child > :last-child > :nth-child(2){
 color: rgba(0, 0, 0, 0.6);
-font-size: 17px;
+font-size: 16px;
 line-height: 130%;
 justify-content: space-between;
+padding-right:60px;
 }
 
 .p-Home.Flex66 > div, .p-Home.Flex74 > div{
@@ -327,10 +327,13 @@ transition: left 1s ease-out;
 .accordion-content{
     background-color: #000000;
     margin-left: 1rem;
+    margin-top: 25px;
+    overflow: hidden;
+    transition: height 0.3s ease;
 }
 
 .accordion-text{
-    padding: 25px 0px 0px 0px;
+    padding: 0px;
     font-size: 18px;
     line-height: 150%;
     color: #666;
@@ -454,4 +457,8 @@ transition: left 1s ease-out;
 .p-Home.Image70 {
     top:2vh;
     right:1vw;
+}
+
+.p-Home.TextBox107{
+    letter-spacing: 1px;
 }
